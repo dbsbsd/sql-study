@@ -80,7 +80,8 @@ EMPLOYEES Å×ÀÌ÷ם¿¡¼­ ÀÌ¸§, ÀÔ»חÀÏÀÚ ÄÃ·³À¸·Î ÷¯°זÇØ¼­ ÀÌ¸§¼רÀ¸·Î ¿À¸§Âק¼ר Ãג·Â Ç
 SELECT
     first_name || ' ' || last_name AS ÀÌ¸§,
     REPLACE(hire_date, '/', '') AS ÀÔ»חÀÏÀÚ
-FROM employees;
+FROM employees
+ORDER BY ÀÌ¸§;
 
 /*
 ¹®Á¦ 2.
